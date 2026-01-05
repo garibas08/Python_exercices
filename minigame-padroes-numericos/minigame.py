@@ -1,4 +1,7 @@
-lista = []
+lista = [] #declaração de um array
+
+#pedindo para o usuário escolher a qtd de números 
+#criando um laço para que o usário não use valores tão pequenos e nem tão grandes
 tamanho_lista = int(input("Escolha uma quantidade de números que deseja guardar (2-9):\n\n"))
 while tamanho_lista < 2 or tamanho_lista > 9 :
         tamanho_lista = int(input(" insira valores válidos de 2 a 9:\n\n"))
